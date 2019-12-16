@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("imagenes/contacto.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	}
+
+
+/*----------Navegador------------*/
+
+nav{
+  float:center;
+  line-height:50px;
+}
+
+nav a{
+  display:inline-block;
+  color:#f56f3a;
+  text-decoration:none;
+  padding:10px 20px;
+  line-height:normal;
+  font-size:20px;
+  font-weight:bold;
+  -webkit-transition:all 100ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+
+nav a:hover{
+  background-color:white;
+  border-radius:50px;
+  color: black;
+}
+
+/*-------------------Titulo-------------*/
+h1{
+	font:"Franklin Gothic Bold";
+	font-size: 25px;
+	background:-webkit-radial-gradient(top,aliceblue, grey);
+	background:-moz-radial-gradient(top,aliceblue, grey);
+	opacity: 85%;
+	width: 25%;
+	border-radius: 95px 25px 85px 55px;
+	margin: 100px 300px auto auto;
+	text-align: button;
+	float: left;
+	padding: 20px;
+	color: white;
+	box-shadow: #121212 5px 5px 10px;
+	text-shadow: #121212 2px 2px 3px;
+}
+/*-------------------Contacto------------*/
+#contactos{
+	font:"Hoefler Text";
+	opacity: 80%;
+	font-size:20px;
+	width: 400px;
+	height: 200px;
+	background:linear-gradient(grey, white);
+	border-radius: 5px;
+	border-style: groove;
+	text-align: center;
+	margin:160px auto;
+	padding: 25px;
+}

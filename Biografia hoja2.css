@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/*fin del reset css*/
+
+/*--------------------- Hoja2------------------*/
+body{
+	background-image: url("../web Jairo/imagenes/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #66999;
+	}
+
+
+/*----------Navegador------------*/
+
+nav{
+  float:center;
+  line-height:50px;
+}
+
+nav a{
+  display:inline-block;
+  color:black;
+  text-decoration:none;
+  padding:10px 20px;
+  line-height:normal;
+  font-size:20px;
+  font-weight:bold;
+  -webkit-transition:all 100ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+
+nav a:hover{
+  background-color:#f56f3a;
+  border-radius:50px;
+  color: white;
+}
+
+/*-------------------Biografia------------*/
+h1{
+	font-family:normal 4.3em Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	background:-webkit-radial-gradient(top,aliceblue, grey);
+	background:-moz-radial-gradient(top,aliceblue, grey);
+	width: 35%;
+	border-radius: 95px 25px 85px 55px;
+	margin: 5px auto;
+	text-align: center;
+	padding: 15px;
+	color: white;
+	box-shadow: #121212 5px 5px 10px;
+	text-shadow: #121212 2px 2px 3px;
+}
+p.biografia{
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	background:-webkit-linear-gradient(top, grey, white);
+	background:-moz-linear-gradient(top, grey, white);
+	width: 75%;
+	border-radius: 95px 25px 85px 55px;
+	margin: 5px auto;
+	text-align: center;
+	padding: 10px;
+	color:white;
+	box-shadow: #121212 5px 5px 10px;
+	text-shadow: #121212 2px 2px 3px;
+}

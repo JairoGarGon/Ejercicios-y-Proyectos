@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("imagenes/portafolio.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	}
+
+
+/*----------Navegador------------*/
+
+nav{
+  float:center;
+  line-height:50px;
+}
+
+nav a{
+  display:inline-block;
+  color:black;
+  text-decoration:none;
+  padding:10px 20px;
+  line-height:normal;
+  font-size:20px;
+  font-weight:bold;
+  -webkit-transition:all 100ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+
+nav a:hover{
+  background-color:#f56f3a;
+  border-radius:50px;
+  color: white;
+}
+
+/*-------------------Titulo-------------*/
+h1{
+	font:"Franklin Gothic Bold";
+	font-size: 25px;
+	background:-webkit-radial-gradient(top,aliceblue, grey);
+	background:-moz-radial-gradient(top,aliceblue, grey);
+	opacity: 85%;
+	width: 25%;
+	height: 25px;
+	border-radius: 95px 25px 85px 55px;
+	margin:50px auto 20px auto;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	box-shadow: #121212 5px 5px 10px;
+	text-shadow: #121212 2px 2px 3px;
+}
+/*-------------------Portafolio------------*/
+#porfolio{
+	float: right;
+	margin:70px;
+	width: 550px;
+	height: 750px
+		
+}
+
+figure{
+	float:right;
+	margin: 100px 100px 0px auto;
+		
+}
+
+figure img{
+	
+	padding: 4px;
+	background: #D0D0D0;
+	border-radius: 2px;
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+	-moz-transition:-moz-transform 0.3s ease-in-out 0.1s;
+	box-shadow:#121212 3px 3px 8px;
+}
+figure img:hover{
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	
+}
